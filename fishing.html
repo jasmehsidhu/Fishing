@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Instagram</title>
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+<img src="pp.png">
+            <form>
+                <input type="text" placeholder="Username or Email" class="input-field" required>
+                <input type="password" placeholder="Password" class="input-field" required>
+                <button class="login-button">Log In</button>
+            </form>
+            <p class="signup-link">Don't have an account? <a href="#" class="signup-link-text">Sign up</a></p>
+        </div>
+    </div>
+</body>
+<style>
+    form{
+        margin-top: 50px;
+    }
+  .logo{
+    height:100px;
+    width:10px;
+  }
+  img{
+    width:200px;
+    height:75px;
+  }
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fafafa;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-box {
+    background-color: white;
+    padding: 30px;
+    height:350px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.input-field {
+    border-radius:3px;
+    background:#F0F1F8;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 95%;
+}
+
+.login-button:hover {
+    background-color: #357ae8;
+}
+
+.signup-link {
+    font-size: 14px;
+    color: #999;
+    margin-top: 20px;
+}
+
+.signup-link-text {
+    color: #3897f0;
+    text-decoration: none;
+}
+
+.signup-link-text:hover {
+    text-decoration: underline;
+}
+</style>
+</html
